@@ -2,7 +2,7 @@
 
 Phần mềm đo âm thanh của Tiến Vinh Audio · G.Sound: hàm truyền 2 kênh, tìm delay, RTA, quang phổ, đồng hồ SPL, đo phòng (RT60, STI).
 
-## Tải bản mới nhất (0.3.0)
+## Tải bản mới nhất (0.3.1)
 
 Xem máy Mac dùng chip gì: bấm biểu tượng quả táo ở góc trên bên trái → **Giới thiệu về máy Mac này** (About This Mac).
 
@@ -11,19 +11,16 @@ Xem máy Mac dùng chip gì: bấm biểu tượng quả táo ở góc trên bê
 
 | Máy | Bộ cài |
 |---|---|
-| Mac chip M | [GSoundMeasure-osx-arm64-Setup.pkg](https://github.com/buiduylinh/gsoundmeasure-releases/releases/download/v0.3.0-osx-arm64/GSoundMeasure-osx-arm64-Setup.pkg) |
-| Mac Intel | [GSoundMeasure-osx-x64-Setup.pkg](https://github.com/buiduylinh/gsoundmeasure-releases/releases/download/v0.3.0-osx-x64/GSoundMeasure-osx-x64-Setup.pkg) |
+| Mac chip M | [GSoundMeasure-osx-arm64-Setup.pkg](https://github.com/buiduylinh/gsoundmeasure-releases/releases/download/v0.3.1-osx-arm64/GSoundMeasure-osx-arm64-Setup.pkg) |
+| Mac Intel | [GSoundMeasure-osx-x64-Setup.pkg](https://github.com/buiduylinh/gsoundmeasure-releases/releases/download/v0.3.1-osx-x64/GSoundMeasure-osx-x64-Setup.pkg) |
 
 Mở file vừa tải, bấm **Tiếp tục** theo từng bước. Lần đầu đo, máy hỏi quyền dùng micro: bấm **Cho phép**.
 
 Đã cài rồi thì không cần tải lại ở đây: có bản mới, app tự báo ở chân trang, bấm vào là cập nhật.
 
-## Có gì trong bản 0.3.0
+## Có gì trong bản 0.3.1
 
-Bản đầu tiên phát hành cho Mac (chip M và Intel). Đây là bản dùng thử, dùng được tới hết ngày 31/12/2026.
+- Sửa lỗi: sau khi cập nhật, macOS có thể không còn nhận ra chữ ký của app. Từ bản này cập nhật xong app vẫn được macOS công nhận.
+- Đo phòng: không còn báo nhầm "tiếng động lọt vào đuôi vang" trên đồ thị toàn dải.
 
-- Đo hàm truyền 2 kênh: biên độ, pha, coherence, đáp ứng xung. Lưu vết để so trước và sau khi chỉnh EQ.
-- Tự tìm delay giữa tín hiệu gốc và mic, tìm được cả khi đo riêng sub.
-- RTA, quang phổ, đồng hồ SPL (lọc A, C, Z).
-- Đo phòng: thời gian ngân (RT60) theo từng dải, độ rõ lời (STI).
-- Có bản mới thì app báo ở chân trang, bấm vào là cập nhật.
+Bản dùng thử, dùng được tới hết ngày 31/12/2026.
